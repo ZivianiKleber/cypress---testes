@@ -1,6 +1,6 @@
 describe('Buscar fotos e dados', ()=> {
 
-    it('buscar fotos do flavio', ()=> {
+    it('Buscar fotos do flavio', ()=> {
         cy.request({
             method: 'GET',
             url: 'https://apialurapic.herokuapp.com/flavio/photos'
@@ -15,7 +15,7 @@ describe('Buscar fotos e dados', ()=> {
     })
 
 
-    it('fazer login do flavio', ()=> {
+    it('Fazer login do flavio', ()=> {
         cy.request({
             method: 'POST',
             url: 'https://apialurapic.herokuapp.com/user/login',
